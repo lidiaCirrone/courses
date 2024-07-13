@@ -1,0 +1,39 @@
+body {
+  font-family: Georgia, sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 1em;
+}
+
+thead {
+  background-color: DarkTurquoise;
+  color: white;
+}
+
+th, td {
+  padding: .5em;
+}
+
+tr td:first-child {
+  text-align: center;
+}
+
+tr:not(:first-child) td {
+  border-top: 1px solid turquoise;
+}
+
+.code {
+  font-family: monospace;
+  background-color: #ddd;
+}
+
+footer {
+  margin-top: 3em;
+}
+
+footer p {
+  text-align: right;
+}
