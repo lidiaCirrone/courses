@@ -2,10 +2,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 pre {
-  margin: 0;
-  padding: .3em;
-  background-color: white;
+  display: inline;
 }
 
 .container {
@@ -22,6 +25,12 @@ pre {
   align-items: center;
 }
 
+.color-box pre {
+  margin: 0;
+  padding: .3em;
+  background-color: white;
+}
+
 .color-box.light-blue {
   background-color: rgb(142, 211, 255);
 }
@@ -32,4 +41,43 @@ pre {
 
 .color-box.light-yellow {
   background-color: rgb(255, 251, 142);
+}
+
+.text-style-block {
+  padding: 1em;
+  max-width: 400px;
+  border: 1px dotted gray;
+}
+
+.text-style-block+.text-style-block {
+  margin-top: 1em;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
 }
