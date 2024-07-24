@@ -5,15 +5,21 @@ body {
 main {
   max-width: 600px;
   margin: 0 auto;
+  text-align: center;
 }
 
 pre {
   display: inline;
 }
 
+li {
+  text-align: left;
+}
+
 .container {
   display: flex;
   gap: 1em;
+  justify-content: space-around;
 }
 
 .color-box {
@@ -47,6 +53,8 @@ pre {
   padding: 1em;
   max-width: 400px;
   border: 1px dotted gray;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .text-style-block+.text-style-block {
