@@ -6,6 +6,10 @@ main {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+
+  h2:not(:first-of-type) {
+    margin-top: 2.5em;
+  }
 }
 
 pre {
